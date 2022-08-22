@@ -14,7 +14,7 @@ let createButton = document.getElementById('createMovie');
 
 const modalAdmin = new bootstrap.Modal(document.getElementById('modal'))
 
-// modalAdmin.show();
+modalAdmin.show();
 
 createButton.addEventListener('click', createMovie);
 form.addEventListener('submit', saveMovie);
