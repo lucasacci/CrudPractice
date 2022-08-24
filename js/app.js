@@ -1,4 +1,3 @@
-import { validarCode, validarDescription, validarTitle, validarUrl } from './helpers.js';
 
 let code = document.getElementById('code');
 let title = document.getElementById('title');
@@ -7,11 +6,7 @@ let url = document.getElementById('url');
 let form = document.getElementById('modalForm');
 let padre = document.querySelector("#section1");
 
-console.log(padre)
-code.addEventListener('change', ()=>{validarCode(code)});
-title.addEventListener('blur', ()=>{validarTitle(title)})
-description.addEventListener('blur', ()=>{validarDescription(description)});
-url.addEventListener('blur', ()=>{validarUrl(url)})
+
 
 let n = [];
 
