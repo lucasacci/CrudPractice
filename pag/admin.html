@@ -68,9 +68,9 @@
                             <label for="#" class="form-label text-light">Genre</label>
                             <select class="form-select" aria-label="Default select example" required>
                                 <option selected>Choose a film genre</option>
-                                <option value="1">Action</option>
-                                <option value="2">Comedy</option>
-                                <option value="3">Horror</option>
+                                <option value="Action">Action</option>
+                                <option value="Comedy">Comedy</option>
+                                <option value="Horror">Horror</option>
                               </select>
                         </div>
                         <div class="d-flex justify-content-evenly">
@@ -87,9 +87,29 @@
         <h2 class="display-5">Lista de series</h2>
         <hr>
       </section>
-      <section id="section1" class="row border bg-secondary">
-
-      </section>
+    </section>
+    <section class="mt-5">
+      <h2 class="display-6">Lista de series</h2>
+      <hr />
+      <article class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Cod.</th>
+              <th scope="col">Titulo</th>
+              <th scope="col">Descripcion</th>
+              <th scope="col">Imagen</th>
+              <th scope="col">Genero</th>
+              <th scope="col">Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="movieTable">
+            
+            <tr>
+          </tbody>
+        </table>
+      </article>
+    </section>
     </main>
     <footer class="p-4 bg-dark">
       <p class="text-light text-center">&copy; Todos los derechos reservados</p>
