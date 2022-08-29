@@ -51,18 +51,28 @@
                         <div class="mb-3">
                           <label for="#" class="form-label text-light">Code</label>
                           <input type="text" class="form-control" id="code"   disabled>
+                          
                         </div>
                         <div class="mb-3">
                           <label for="#" class="form-label text-light">Title</label>
                           <input type="text" class="form-control" id="title" placeholder="Movie title" maxlength="20" minlength="3" required>
+                          <div class="invalid-feedback text-danger">
+                            Ingrese un texto mayor a 2 letras
+                          </div>
                         </div>
                         <div class="mb-3">
                           <label for="#" class="form-label text-light">Description</label>
                             <textarea  id="description" cols="30" rows="4" type="consulta" id="consulta" rows="4" placeholder="Type the description" class="form-control"  maxlength="300" required></textarea>
+                            <div class="invalid-feedback text-danger">
+                              Ingrese una descripcion mayor a 10 letras
+                            </div>
                         </div>
                         <div class="mb-3">
                           <label for="#"  class="form-label text-light">Image</label>
                           <input type="text"  class="form-control" id="url" placeholder="Image URL" required>
+                          <div class="invalid-feedback text-danger">
+                            Ingrese una URL valida
+                          </div>
                         </div>
                         <div class="mb-3">
                             <label for="#" class="form-label text-light">Genre</label>
