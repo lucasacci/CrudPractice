@@ -21,9 +21,9 @@ function crearColumna(movie){
     padre.innerHTML += `
         <aside class="col-12 col-md-4 col-lg-3 my-3">
          <div class="card">
-           <img src="${movie.img}" class="card-img-top" alt="img">
+           <img src="${movie.img}" class="card-img-top w-100 cardXD"  alt="img">
            <div class="card-body">
-             <h5 class="card-title">${movie.title}<span class="badge text-bg-danger rounded-pill mx-2">Nuevo</span></h5>
+             <h5 class="card-title">${movie.title}<br><span class="badge text-bg-danger rounded-pill mx-2">Nuevo</span></h5>
              <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modalMedialuna">Ver mas</button>
            </div>
          </div>
